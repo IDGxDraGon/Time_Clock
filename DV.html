@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Version</title>
+    <link rel="stylesheet" href="DV-Style.css" />
+  </head>
+  <body>
+    <!------------------------------------Clock------------------------------------------->
+    <div>
+      <h1 id="Clock"></h1>
+    </div>
+    <!------------------------------------Video------------------------------------------->
+    <div class="video-background">
+      <video id="backgroundVideo" autoplay muted loop>
+        <source src="video/earth.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!------------------------------------Buttons------------------------------------------->
+    <button id="light" class="button" onclick="lmode()">jupiter</button>
+    <button id="return-bt">
+      <a class="a" href="index.html">-Regular Clock-</a>
+    </button>
+    <button id="dark" class="button" onclick="dmode()">Earth</button>
+    <!------------------------------------JS------------------------------------------->
+    <script src="DV-Script.js"></script>
+  </body>
+</html>
