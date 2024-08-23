@@ -53,7 +53,7 @@ function updateSunMoonPosition() {
     hour.style.background = "black";
     minet.style.background = "black";
   } else {
-    document.body.style.backgroundImage = 'url("images/night.jpg")';
+    document.body.style.backgroundImage = 'url("images/midnight.jpg")';
     sun.style.display = "none";
     moon.style.display = "block";
     clock.style.borderColor = "white";
